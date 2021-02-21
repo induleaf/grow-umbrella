@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 3001",
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --ext .ts"
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@leaffm/components": "^4.5.2",
+    "@loadable/component": "^5.14.1",
     "@module-federation/nextjs-mf": "^0.0.2",
     "@types/node": "^14.14.10",
     "@types/react": "^17.0.0",
